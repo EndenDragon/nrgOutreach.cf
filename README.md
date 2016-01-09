@@ -1,8 +1,6 @@
 # nrgOutreach.cf
 
-** By Jeremy Zhang**
-
-[http://nrgOutreach.cf](http://nrgOutreach.cf/)
+**By Jeremy Zhang - [http://nrgOutreach.cf](http://nrgOutreach.cf/)**
 
 Newport Robotics Group (NRG948) Outreach Site
 
