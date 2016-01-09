@@ -1,12 +1,14 @@
 # nrgOutreach.cf
 
-## By Jeremy Zhang
+** By Jeremy Zhang**
 
 [http://nrgOutreach.cf](http://nrgOutreach.cf/)
 
 Newport Robotics Group (NRG948) Outreach Site
 
 Make any changes that needed and submit a pull-request!
+
+## Files
 
 **Significant files and their purpose**
 
@@ -15,6 +17,8 @@ Make any changes that needed and submit a pull-request!
 * nrgOutreach.csv - User data to be processed.
 * /assets - Javascript, CSS, imgs, & more!
 * /upload - Uploads the csv files onto the site! ~Written in PHP due to the author’s lack of knowledge of using upload with Python.
+
+## URL Format
 
 Url format example for nrgOutreach.py to process: `http://nrgoutreach.cf/nrgOutreach.py?fn=Jeremy&ln=Zhang`
 
