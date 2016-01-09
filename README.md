@@ -4,7 +4,7 @@
 
 Newport Robotics Group (NRG948) Outreach Site
 
-Make any changes that needed and submit a pull-request!
+Make any changes/fixes that are needed and submit a pull-request! Thank you for your contribution! :)
 
 ## Files
 
