@@ -95,7 +95,7 @@ print """
         <!-- Fork Github -->
         <div class="github-fork-ribbon-wrapper right">
             <div class="github-fork-ribbon">
-                <a href=" https://github.com/EndenDragon/nrgOutreach.cf">Fork me on GitHub</a>
+                <a href=" https://github.com/EndenDragon/nrgOutreach.cf">View me on GitHub</a>
             </div>
         </div>
         
