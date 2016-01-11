@@ -19,17 +19,14 @@ else:
     pass
 
 firstName = firstName.lower()
-firstName = firstName.title()
-
 lastName = lastName.lower()
-lastName = lastName.title()
 
 with open("nrgOutreach.csv") as csvfile:
     cr = csv.DictReader(csvfile)
     for row in cr:
     #print row
     #print (row['First Name'] + " " + row['Last Name'])
-        if row['First Name'].replace(" ", "") == firstName and row['Last Name'].replace(" ", "") == lastName:
+        if row['First Name'].replace(" ", "").lower() == firstName and row['Last Name'].replace(" ", "").lower() == lastName:
             dictionary = row
             del dictionary['First Name']
             del dictionary['Last Name']
