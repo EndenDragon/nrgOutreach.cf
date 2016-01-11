@@ -7,14 +7,14 @@ import csv
 try:
     firstName = str(form["fn"].value).replace(" ", "")
 except:
-    firstName = "null"
+    firstName = "Null"
 else:
     pass
 
 try:
     lastName = str(form["ln"].value).replace(" ", "")
 except:
-    lastName = "null"
+    lastName = "Null"
 else:
     pass
 
