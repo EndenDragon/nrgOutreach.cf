@@ -7,14 +7,14 @@ import csv
 try:
     firstName = str(form["fn"].value).replace(" ", "")
 except:
-    firstName = "Null"
+    firstName = "null"
 else:
     pass
 
 try:
     lastName = str(form["ln"].value).replace(" ", "")
 except:
-    lastName = "Null"
+    lastName = "null"
 else:
     pass
 
@@ -141,11 +141,11 @@ print """
                         </div> <div class="well well-sm"><div class="pull-right"><a href="" id="printJS" onclick="return false;">Print</a> <span class="glyphicon glyphicon-minus" aria-hidden="true" style="color: black;"></span> <a href="http://nrgoutreach.cf/">Clear</a></div>"""
 totalHrs = 0
 
-if firstName == "Null" or lastName == "Null":
+if firstName == "null" or lastName == "null":
     print """<div class="alert alert-danger" role="alert"><strong>Error:</strong>"""
-    if firstName == "Null":
+    if firstName == "null":
         print " You didn't enter a first name!"
-    if lastName == "Null":
+    if lastName == "null":
         print " You didn't enter a last name!"
     print "</div>"
 
