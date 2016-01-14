@@ -138,7 +138,7 @@ print """
                                     <button class="btn btn-default btn-large" type="button submit" value="Submit">Submit <span class="glyphicon glyphicon-ok" aria-hidden="true"></span></button>
                                 </span>
                             </div>
-                        </div> <div class="well well-sm"><div class="pull-right"><a href="" id="printJS" onclick="return false;">Print</a> <span class="glyphicon glyphicon-minus" aria-hidden="true" style="color: black;"></span> <a href="http://nrgoutreach.cf/">Clear</a></div>"""
+                        </div> <div class="well well-sm"><div class="pull-right"><a href="" id="printJS" onclick="return false;">Print</a> <span class="glyphicon glyphicon-minus" aria-hidden="true" style="color: black;"></span> <a href=“../“>Clear</a></div>"""
 totalHrs = 0
 
 if firstName == "null" or lastName == "null":
