@@ -1,5 +1,4 @@
 #!/usr/bin/python
-# -*- coding: utf-8 -*-
 print "Content-Type: text/html"
 print ""
 import cgi
@@ -139,7 +138,7 @@ print """
                                     <button class="btn btn-default btn-large" type="button submit" value="Submit">Submit <span class="glyphicon glyphicon-ok" aria-hidden="true"></span></button>
                                 </span>
                             </div>
-                        </div> <div class="well well-sm"><div class="pull-right"><a href="" id="printJS" onclick="return false;">Print</a> <span class="glyphicon glyphicon-minus" aria-hidden="true" style="color: black;"></span> <a href=“../“>Clear</a></div>"""
+                        </div> <div class="well well-sm"><div class="pull-right"><a href="" id="printJS" onclick="return false;">Print</a> <span class="glyphicon glyphicon-minus" aria-hidden="true" style="color: black;"></span> <a href="../">Clear</a></div>"""
 totalHrs = 0
 
 if firstName == "null" or lastName == "null":
@@ -212,7 +211,7 @@ print """</div>
 print """
 <script type='text/javascript'>//<![CDATA[
 $(window).load(function(){
-var print = `<html><head></head><body style="color: black;"><h1>Your NRG Outreach Hours</h1><p>Print friendly page from <script>document.write(window.location.host);</script></p><br>"""
+var print = `<html><head></head><body style="color: black;"><h1>Your NRG Outreach Hours</h1><p>Print friendly page from http://nrgOutreach.cf/</p><br>"""
 
 
 totalHrs = 0
