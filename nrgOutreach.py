@@ -211,7 +211,7 @@ print """</div>
 print """
 <script type='text/javascript'>//<![CDATA[
 $(window).load(function(){
-var print = `<html><head></head><body style="color: black;"><h1>Your NRG Outreach Hours</h1><p>Print friendly page from http://nrgOutreach.cf/</p><br>"""
+var print = `<html><head></head><body style="color: black;"><h1>Your NRG Outreach Hours</h1><p>Print friendly page from <script>document.write(window.location.host);</script></p><br>"""
 
 
 totalHrs = 0
