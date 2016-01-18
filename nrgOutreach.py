@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 print "Content-Type: text/html"
 print ""
 import cgi

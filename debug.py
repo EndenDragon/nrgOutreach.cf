@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 print "Content-Type: text/html"
 print ""
 print "Something is wrong with this site, I'm currently looking into it. I hope it would be back soon. Sorry D:"
