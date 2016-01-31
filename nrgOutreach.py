@@ -4,6 +4,7 @@ print ""
 import cgi
 form = cgi.FieldStorage()
 import csv
+import sys
 try:
     firstName = str(form["fn"].value).replace(" ", "")
 except:
@@ -31,7 +32,7 @@ with open("nrgOutreach.csv") as csvfile:
             del dictionary['First Name']
             del dictionary['Last Name']
         
-print """
+sys.stdout.write( """
 <!DOCTYPE html>
 <html lang="en">
 
@@ -120,7 +121,18 @@ print """
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <a href="http://nrgAttendance.cf/"><button type="button" class="btn btn-warning btn-lg pull-right">Check your attendance records!</button></a>
+                <a href="http://nrgAttendance.cf/""")
+try:
+    if firstName == "null" and lastName == "null":
+        pass
+    else:
+        sys.stdout.write("nrgAttendance.py?fn=" + str(form["fn"].value) + "&ln=" + str(form["ln"].value))
+except:
+    pass
+else:
+    pass
+
+print """"><button type="button" class="btn btn-warning btn-lg pull-right">Check your attendance records!</button></a>
                 <h1>NRG Outreach Hours Lookup</h1>
                 <p>By Jeremy Zhang</p>
                 
