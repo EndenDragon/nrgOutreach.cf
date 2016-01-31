@@ -120,6 +120,7 @@ print """
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
+                <a href="http://nrgAttendance.cf/"><button type="button" class="btn btn-warning btn-lg pull-right">Check your attendance records!</button></a>
                 <h1>NRG Outreach Hours Lookup</h1>
                 <p>By Jeremy Zhang</p>
                 
