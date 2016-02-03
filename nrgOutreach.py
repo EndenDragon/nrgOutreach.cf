@@ -84,6 +84,13 @@ sys.stdout.write( """
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="assets/icn/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@EndenDragon" />
+    <meta name="twitter:title" content="Newport Robotics Outreach Hours" />
+    <meta name="twitter:description" content="Check your robotics outreach hours with this simple web tool!" />
+    <meta name="twitter:image" content="http://i.imgur.com/WXjEAbD.png" />
 </head>
 
 <body>
